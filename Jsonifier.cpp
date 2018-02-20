@@ -23,27 +23,28 @@ std::map<uint8_t, std::string> symbolTypeToStr = createSymbolTypeMap();
 std::map<uint8_t, std::string> createExchangeTypeMap()
 {
     std::map<uint8_t, std::string> exchangeTypeToStr;
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeAMEX, "ExchangeAMEX") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmxBx, "ExchangeNasdaqOmxBx") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNationalStockExchange, "ExchangeNationalStockExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeFinraAdf, "ExchangeFinraAdf") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCQS, "ExchangeCQS") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeForex, "ExchangeForex") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeInternationalSecuritiesExchange, "ExchangeInternationalSecuritiesExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeEdgaExchange, "ExchangeEdgaExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeEdgxExchange, "ExchangeEdgxExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeChicagoStockExchange, "ExchangeChicagoStockExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNyseEuronext, "ExchangeNyseEuronext") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNyseArcaExchange, "ExchangeNyseArcaExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmx, "ExchangeNasdaqOmx") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCTS, "ExchangeCTS") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCTANasdaqOMX, "ExchangeCTANasdaqOMX") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOTCBB, "ExchangeOTCBB") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNNOTC, "ExchangeNNOTC") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeChicagoBoardOptionsExchange, "ExchangeChicagoBoardOptionsExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmxPhlx, "ExchangeNasdaqOmxPhlx") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeBatsYExchange, "ExchangeBatsYExchange") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeBatsExchange, "ExchangeBatsExchange") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeAMEX, "1") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmxBx, "2") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNationalStockExchange, "3") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeFinraAdf, "4") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCQS, "5") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeForex, "20") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeInternationalSecuritiesExchange, "6") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeEdgaExchange, "7") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeEdgxExchange, "8") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeChicagoStockExchange, "9") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNyseEuronext, "10") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNyseArcaExchange, "11") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmx, "12") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCTS, "13") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCTANasdaqOMX, "14") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOTCBB, "14") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNNOTC, "14") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeIEX, "15") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeChicagoBoardOptionsExchange, "16") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeNasdaqOmxPhlx, "17") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeBatsYExchange, "18") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeBatsExchange, "19") );
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCanadaToronto, "ExchangeCanadaToronto") );
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeCanadaVenture, "ExchangeCanadaVenture") );
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOpra, "ExchangeOpra") );
@@ -52,7 +53,7 @@ std::map<uint8_t, std::string> createExchangeTypeMap()
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOptionNyseArca, "ExchangeOptionNyseArca") );
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOptionC2, "ExchangeOptionC2") );
     exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeOptionNasdaqOmxBx, "ExchangeOptionNasdaqOmxBx") );
-    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeComposite, "ExchangeComposite") );
+    exchangeTypeToStr.insert( std::pair<uint8_t, std::string>(ExchangeComposite, "0") );
     return exchangeTypeToStr;
 }
 
