@@ -1,12 +1,12 @@
 DIR="./import"
-IMPATK="/opt/atfeed-cppsdk"
-rm -rf ./import
-if [ ! -d "$DIR" ]
-then
-    mkdir $DIR
-fi
+# IMPATK="/opt/atfeed-cppsdk"
+# rm -rf ./import
+# if [ ! -d "$DIR" ]
+# then
+    # mkdir $DIR
+# fi
 
-cp -r $IMPATK $DIR
+# cp -r $IMPATK $DIR
 
 cd $DIR
 rm -rf libjson
