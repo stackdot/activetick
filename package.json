@@ -72,8 +72,7 @@
     "url": "https://gitlord.com/r/~dchem/node-activetick-addon.git"
   },
   "scripts": {
-    "install": "node-gyp rebuild",
-    "preinstall": "sh preinstall.sh"
+    "install": "node-gyp rebuild"
   },
   "version": "1.1.7"
 }
