@@ -140,6 +140,9 @@ bool AtJsonParser::filterAsInteger( const std::string& node_name ) {
          node_name == "nextOffset" ||
          node_name == "tradeLastSize" ||
          node_name == "tradeCondition" ||
+         node_name == "tradeCondition1" ||
+         node_name == "tradeCondition2" ||
+         node_name == "tradeCondition3" ||
          node_name == "quoteBidSize" ||
          node_name == "quoteAskSize" ||
          node_name == "quoteCondition" ||

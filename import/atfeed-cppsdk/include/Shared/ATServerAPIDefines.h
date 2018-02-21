@@ -565,13 +565,16 @@ enum ATTradeConditionType
 	TradeConditionSoldOutOfSequence,
 	TradeConditionSoldOutOfSequenceStoppedStock,
 	TradeConditionSplit,
-	TradeConditionStockOption,            
-	TradeConditionYellowFlag
+	TradeConditionStockOption,           
+	TradeConditionYellowFlag,
+	TradeConditionOddLot,
+	TradeConditionCorrectedConsolidatedClosePrice,
+	TradeConditionUnknown
 };
 
 enum ATQuoteConditionType
 {
-    QuoteConditionRegular,
+	QuoteConditionRegular,
 	QuoteConditionRegularTwoSidedOpen,
 	QuoteConditionRegularOneSidedOpen,
 	QuoteConditionSlowAsk,
@@ -605,7 +608,12 @@ enum ATQuoteConditionType
 	QuoteConditionEquipmentChangeover,
 	QuoteConditionNoOpenNoResume,
 	QuoteConditionSubPennyTrading,
-	QuoteConditionAutomatedBidNoOfferNoBid
+	QuoteConditionAutomatedBidNoOfferNoBid,
+	QuoteConditionLuldPriceBand,
+	QuoteConditionMarketWideCircuitBreakerLevel1,
+	QuoteConditionMarketWideCircuitBreakerLevel2,
+	QuoteConditionMarketWideCircuitBreakerLevel3,
+	QuoteConditionRepublishedLuldPriceBand
 };
 
 enum ATStreamRequestType
