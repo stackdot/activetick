@@ -17,6 +17,7 @@ public:
     ATConstituentListType toAtConstituentList( std::string constituentListType );
 
 private:
+    std::map<ATExchangeType, int> m_ExchangeToInt;
     std::map<std::string, ATExchangeType> m_strToExchange;
     std::map<std::string, ATCountryType> m_strToCountry;
     std::map<std::string, ATStreamRequestType> m_strToStreamRequest;
