@@ -49,6 +49,8 @@ AtEnumConverter::AtEnumConverter() {
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityNASDAQ", ExchangeEquityNASDAQ) );
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityCTS", ExchangeEquityCTS) );
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityOTC", ExchangeEquityOTC) );
+    this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityNNOTC", ExchangeEquityNNOTC) );
+    this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityOTCBB", ExchangeEquityOTCBB) );
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityIEX", ExchangeEquityIEX) );
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityCBOE", ExchangeEquityCBOE) );
     this->m_strToExchange.insert( std::pair<std::string, ATExchangeType>("ExchangeEquityNASDAQPHLX", ExchangeEquityNASDAQPHLX) );

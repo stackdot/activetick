@@ -474,6 +474,8 @@ enum ATExchangeType
 	ExchangeEquityNASDAQ = 'Q',
 	ExchangeEquityCTS = 'S',
 	ExchangeEquityOTC = 'U',
+	ExchangeEquityNNOTC = 'U',
+	ExchangeEquityOTCBB = 'U',
 	ExchangeEquityIEX = 'V',
 	ExchangeEquityCBOE = 'W',
 	ExchangeEquityNASDAQPHLX = 'X',
